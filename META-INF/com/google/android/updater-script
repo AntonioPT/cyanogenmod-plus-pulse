@@ -1,15 +1,12 @@
-ui_print("Welcome to CyanogenMod-6.1.0-RC2-Pulse!");
+ui_print("Welcome to CyanogenMod-Plus-Pulse!");
 assert(getprop("ro.product.device") == "pulse" || getprop("ro.build.product") == "pulse" || getprop("ro.product.board") == "pulse" || 
        getprop("ro.product.device") == "u8220" || getprop("ro.build.product") == "u8220" || getprop("ro.product.board") == "u8220" || 
        getprop("ro.product.device") == "u8230" || getprop("ro.build.product") == "u8230" || getprop("ro.product.board") == "u8230");
-package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
-set_perm(0, 0, 0777, "/tmp/backuptool.sh");
-run_program("/tmp/backuptool.sh", "backup");
 show_progress(0.500000, 0);
+format("MTD", "cache");
 format("MTD", "system");
 mount("MTD", "system", "/system");
 show_progress(0.500000, 40);
-package_extract_dir("recovery", "/system");
 package_extract_dir("system", "/system");
 symlink("busybox", "/system/xbin/[", "/system/xbin/[[",
         "/system/xbin/arp", "/system/xbin/ash", "/system/xbin/awk",
@@ -97,7 +94,6 @@ set_perm(1014, 2000, 0550, "/system/etc/dhcpcd/dhcpcd-run-hooks");
 set_perm_recursive(0, 2000, 0755, 0750, "/system/etc/init.d");
 set_perm(0, 0, 0755, "/system/etc/init.d");
 set_perm(0, 2000, 0550, "/system/etc/init.goldfish.sh");
-set_perm(0, 0, 0544, "/system/etc/install-recovery.sh");
 set_perm_recursive(0, 0, 0755, 0555, "/system/etc/ppp");
 set_perm_recursive(0, 2000, 0755, 0755, "/system/xbin");
 set_perm(0, 0, 06755, "/system/xbin/hcitool");
@@ -108,13 +104,7 @@ set_perm(0, 0, 06755, "/system/xbin/su");
 set_perm(0, 0, 06755, "/system/xbin/tcpdump");
 show_progress(0.200000, 0);
 show_progress(0.200000, 10);
-package_extract_file("system/bin/backuptool.sh", "/tmp/backuptool.sh");
-set_perm(0, 0, 0777, "/tmp/backuptool.sh");
-run_program("/tmp/backuptool.sh", "restore");
 show_progress(0.200000, 10);
-package_extract_file("system/bin/verify_cache_partition_size.sh", "/tmp/verify_cache_partition_size.sh");
-set_perm(0, 0, 0777, "/tmp/verify_cache_partition_size.sh");
-run_program("/tmp/verify_cache_partition_size.sh");
 show_progress(0.200000, 10);
 assert(package_extract_file("boot.img", "/tmp/boot.img"),
        write_raw_image("/tmp/boot.img", "boot"),
