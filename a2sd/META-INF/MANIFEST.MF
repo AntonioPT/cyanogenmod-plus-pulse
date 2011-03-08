@@ -1,0 +1,93 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: system/bin/adbfix
+SHA1-Digest: 0Z48BVIpfCGLODi3LXJB7ShRBYA=
+
+Name: data/dtinstall.launch
+SHA1-Digest: 9q237fxVkUpqSPoxWKTyS8fQ+4Y=
+
+Name: system/bin/launcha2sd
+SHA1-Digest: cZBI4+B+9lx54t6hIFifH18pogk=
+
+Name: system/etc/init.d/01sysctl
+SHA1-Digest: 7mSigaDiH0MXZf1X1u5gsO28Dvg=
+
+Name: system/sd/placeholder
+SHA1-Digest: yB00PmgFUsjwpjxfvJWIgyD9RS0=
+
+Name: system/bin/zipalign
+SHA1-Digest: pwL0NEqL/oCSjT+NiX3jh8ptQSU=
+
+Name: system/bin/busybox.a2sd
+SHA1-Digest: 5sArFEV8vTFGFunXZk7f3seoZVs=
+
+Name: system/bin/e2fsck
+SHA1-Digest: XbUTRH/wKzFs0KncFuVCk6ZVngo=
+
+Name: system/bin/apps2sd.hlp
+SHA1-Digest: Sb6IbxkI8BdS2tpFUWDdcMByKJI=
+
+Name: system/etc/init.d/99complete
+SHA1-Digest: D8rUfaHXfQvwn+eBbWWzHtztf18=
+
+Name: system/bin/dtinstall
+SHA1-Digest: IkWdd3O9x7CqM2ahnxtsmrQQrE0=
+
+Name: data/jit/lib/libnativehelper.so
+SHA1-Digest: wFZKoPoXwCAbn5KBWbpoO3MdfWs=
+
+Name: system/bin/bash
+SHA1-Digest: F69Mawxw1zmAOQLGd0uxGGKimhA=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: AHMGP5XwZtoJOjqKlXi69msssqA=
+
+Name: system/bin/sysinit
+SHA1-Digest: oS0APnQo/APgW2HrdKpI5noHETQ=
+
+Name: system/bin/.launcha2sd.new
+SHA1-Digest: HEymUfIHA+dgGkJTVYFsosDiL78=
+
+Name: system/etc/init.d/00banner
+SHA1-Digest: 8KwHWMXC/cVhdKTmRrEDveMEtMo=
+
+Name: system/bin/.a2sd.swp
+SHA1-Digest: wNynvjv6iaBQE536cz28nEmhbUE=
+
+Name: system/bin/a2sd
+SHA1-Digest: OeC4iHLG7mjWBTyUyMJU6lTJVxA=
+
+Name: system/xbin/a2sd
+SHA1-Digest: OeC4iHLG7mjWBTyUyMJU6lTJVxA=
+
+Name: system/bin/jita2sd
+SHA1-Digest: Amep2jv7hWa2ajMgsE2pufLBlM4=
+
+Name: data/jit/lib/libdvm.so
+SHA1-Digest: F34WDYfJFdZtXC6PXTgdutetxVU=
+
+Name: system/etc/init.d/02firstboot
+SHA1-Digest: mvq8ZXVH9nvZez7CbXOv4IjYSiw=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 7q+FO5bufm1jCoHO6c0EJKT2haI=
+
+Name: system/bin/.starta2sd.new
+SHA1-Digest: 0UZMVtXm5rQ0wLcaSptdB5Lqi/U=
+
+Name: system/etc/init.d/04apps2sd
+SHA1-Digest: OeC4iHLG7mjWBTyUyMJU6lTJVxA=
+
+Name: data/jit/bin/dalvikvm
+SHA1-Digest: JbEqXyvj6AwjiqLC9VgKo7e7HTk=
+
+Name: system/xbin/apps2sd
+SHA1-Digest: OeC4iHLG7mjWBTyUyMJU6lTJVxA=
+
+Name: system/bin/starta2sd
+SHA1-Digest: afzHmwgGJv3ejIC9zluwNqEGmxk=
+
+Name: system/bin/chka2sd
+SHA1-Digest: xsvBRAmK4IQDeKc/OmA/1yn4Dak=
+
