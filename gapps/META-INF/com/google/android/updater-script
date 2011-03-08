@@ -1,9 +1,0 @@
-ui_print("Installing Google Apps for Pulse..");
-mount("MTD", "system", "/system");
-mount("MTD", "userdata", "/data");
-show_progress(1, 15);
-delete("/system/app/CarHomeGoogle.apk",  "/system/app/CarHomeLauncher.apk",  "/system/app/ChromeToPhone.apk",  "/system/app/com.amazon.mp3.apk",  "/system/app/Facebook.apk",  "/system/app/GenieWidget.apk",  "/system/app/Gmail.apk",  "/system/app/GoogleBackupTransport.apk",  "/system/app/GoogleCalendarSyncAdapter.apk",  "/system/app/GoogleContactsSyncAdapter.apk",  "/system/app/GoogleFeedback.apk",  "/system/app/GoogleGoggles.apk",  "/system/app/GooglePartnerSetup.apk",  "/system/app/GoogleQuickSearchBox.apk",  "/system/app/QuickSearchBox.apk",  "/system/app/GoogleServicesFramework.apk",  "/system/app/googlevoice.apk",  "/system/app/HtcCopyright.apk",  "/system/app/HtcEmailPolicy.apk",  "/system/app/HtcSettings.apk",  "/system/app/kickback.apk",  "/system/app/LatinImeTutorial.apk",  "/system/app/Maps.apk",  "/system/app/MarketUpdater.apk",  "/system/app/MediaUploader.apk",  "/system/app/NetworkLocation.apk",  "/system/app/OneTimeInitializer.apk",  "/system/app/PassionQuickOffice.apk",  "/system/app/SetupWizard.apk",  "/system/app/Provision.apk",  "/system/app/soundback.apk",  "/system/app/Street.apk",  "/system/app/Talk.apk",  "/system/app/talkback.apk",  "/system/app/Twitter.apk",  "/system/app/Vending.apk",  "/system/app/VoiceSearch.apk",  "/system/app/YouTube.apk",  "/system/etc/permissions/com.google.android.maps.xml",  "/system/etc/permissions/features.xml",  "/system/framework/com.google.android.maps.jar",  "/system/lib/libimageutils.so",  "/system/lib/libinterstitial.so",  "/system/lib/libspeech.so",  "/system/lib/libzxing.so",  "/system/lib/libvoicesearch.so");
-package_extract_dir("system", "/system");
-package_extract_dir("data", "/data");
-ui_print("Installation complete!");
-unmount("/system");
